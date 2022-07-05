@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getGreetingsFromAPI } from '../redux/Greetings/greetings.js';
+import { getGreetingsFromAPI } from '../redux/Greetings/Greetings.js';
 
 const Greetings = () => {
   const selected = useSelector((state) => state.greetings);
